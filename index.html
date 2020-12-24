@@ -12,10 +12,12 @@
 </head>
 <body>
     <script>
-         var name= prompt('enter ur name to save it in store data base ');  
+         var name= prompt('enter ur name to save it in store data base '); 
+         while (name==''||name=null) {
+             name=prompt('enter ur name');
+         }
 
-
-         var phone= prompt('enter ur phone to save it in store data base ');  
+        var phone= prompt('enter ur phone to save it in store data base ');  
         var price=prompt('enter ur price');
         document.write('<h1>'+'ur phone is '+ name+ '</h1>');
         document.write('<h1>'+'ur phone is '+ phone+ '</h1>');
@@ -35,7 +37,10 @@ else
 {
 alert ('u buy samsung');
 }
-
+var start=prompt('Enter the number of pics');
+for (var i =1;i<=start;i++){
+     document.write(<img src="https://drop.ndtv.com/TECH/product_database/images/913201720152AM_635_iphone_x.jpeg" alt="iphone11" width="460" height="345">)
+}
 
     </script>
  <header>
