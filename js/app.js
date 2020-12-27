@@ -1,12 +1,12 @@
 'use strict';
 alert('welcome to wishes shop');
 var userName=prompt('enter ur name');
-var userPhone=prompt('enter ur phone');
-var userPrice=prompt('enter ur price');
+
 while (userName === '') {
     userName = prompt('enter ur name');
 }
-
+var userPhone=prompt('enter ur phone');
+var userPrice=prompt('enter ur price');
 displayuserinfo(userName,userPhone,userPrice);
 function displayuserinfo(uname,uphone,uprice){
     alert('welcome ... ' +uname+ ' ! your phone number is ' + uphone+'   ! and this ur price ' +uprice +'$');
