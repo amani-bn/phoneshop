@@ -14,8 +14,6 @@ function displayuserinfo(uname,uphone,uprice){
 }
 
 // var name = prompt('enter ur name to save it in store data base ');
-
-
 // var phone = prompt('enter ur phone to save it in store data base ');
 // var price = prompt('enter ur price');
 // document.write('<h1>' + 'ur name is ' + name + '</h1>');
