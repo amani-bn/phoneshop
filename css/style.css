@@ -13,8 +13,17 @@
 
 } 
 
+.header-list li a{
+    padding: 50px;
+    text-decoration: none;
+} 
 
-.anker {
-   padding: 50px;
+   
 
+
+
+table,
+th,
+td {
+    border: 1px solid black;
 }
